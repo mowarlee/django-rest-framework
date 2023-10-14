@@ -406,7 +406,7 @@ The following third party packages are also available.
 
 Install using pip.
 
-    $ pip install djangorestframework-yaml
+    $ pip install djrestframework-yaml
 
 Modify your REST framework settings.
 
@@ -427,7 +427,7 @@ Modify your REST framework settings.
 
 Install using pip.
 
-    $ pip install djangorestframework-xml
+    $ pip install djrestframework-xml
 
 Modify your REST framework settings.
 
@@ -456,7 +456,7 @@ The `jsonp` approach is essentially a browser hack, and is [only appropriate for
 
 Install using pip.
 
-    $ pip install djangorestframework-jsonp
+    $ pip install djrestframework-jsonp
 
 Modify your REST framework settings.
 
@@ -468,7 +468,7 @@ Modify your REST framework settings.
 
 ## MessagePack
 
-[MessagePack][messagepack] is a fast, efficient binary serialization format.  [Juan Riaza][juanriaza] maintains the [djangorestframework-msgpack][djangorestframework-msgpack] package which provides MessagePack renderer and parser support for REST framework.
+[MessagePack][messagepack] is a fast, efficient binary serialization format.  [Juan Riaza][juanriaza] maintains the [djrestframework-msgpack][djrestframework-msgpack] package which provides MessagePack renderer and parser support for REST framework.
 
 ## Microsoft Excel: XLSX (Binary Spreadsheet Endpoints)
 
@@ -509,7 +509,7 @@ To avoid having a file streamed without a filename (which the browser will often
 
 ## CSV
 
-Comma-separated values are a plain-text tabular data format, that can be easily imported into spreadsheet applications. [Mjumbe Poe][mjumbewu] maintains the [djangorestframework-csv][djangorestframework-csv] package which provides CSV renderer support for REST framework.
+Comma-separated values are a plain-text tabular data format, that can be easily imported into spreadsheet applications. [Mjumbe Poe][mjumbewu] maintains the [djrestframework-csv][djrestframework-csv] package which provides CSV renderer support for REST framework.
 
 ## UltraJSON
 
@@ -517,7 +517,7 @@ Comma-separated values are a plain-text tabular data format, that can be easily 
 
 ## CamelCase JSON
 
-[djangorestframework-camel-case] provides camel case JSON renderers and parsers for REST framework.  This allows serializers to use Python-style underscored field names, but be exposed in the API as Javascript-style camel case field names.  It is maintained by [Vitaly Babiy][vbabiy].
+[djrestframework-camel-case] provides camel case JSON renderers and parsers for REST framework.  This allows serializers to use Python-style underscored field names, but be exposed in the API as Javascript-style camel case field names.  It is maintained by [Vitaly Babiy][vbabiy].
 
 ## Pandas (CSV, Excel, PNG)
 
@@ -554,13 +554,13 @@ Comma-separated values are a plain-text tabular data format, that can be easily 
 [rest-framework-yaml]: https://jpadilla.github.io/django-rest-framework-yaml/
 [rest-framework-xml]: https://jpadilla.github.io/django-rest-framework-xml/
 [yaml]: http://www.yaml.org/
-[djangorestframework-msgpack]: https://github.com/juanriaza/django-rest-framework-msgpack
-[djangorestframework-csv]: https://github.com/mjumbewu/django-rest-framework-csv
+[djrestframework-msgpack]: https://github.com/juanriaza/django-rest-framework-msgpack
+[djrestframework-csv]: https://github.com/mjumbewu/django-rest-framework-csv
 [ultrajson]: https://github.com/esnme/ultrajson
 [Amertz08]: https://github.com/Amertz08
 [drf-ujson-renderer]: https://github.com/gizmag/drf-ujson-renderer
 [drf_ujson2]: https://github.com/Amertz08/drf_ujson2
-[djangorestframework-camel-case]: https://github.com/vbabiy/djangorestframework-camel-case
+[djrestframework-camel-case]: https://github.com/vbabiy/djrestframework-camel-case
 [Django REST Pandas]: https://github.com/wq/django-rest-pandas
 [Pandas]: https://pandas.pydata.org/
 [other formats]: https://github.com/wq/django-rest-pandas#supported-formats

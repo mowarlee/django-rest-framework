@@ -349,7 +349,7 @@ The [django-rest-framework-filters package][django-rest-framework-filters] works
 
 ## Django REST framework full word search filter
 
-The [djangorestframework-word-filter][django-rest-framework-word-search-filter] developed as alternative to `filters.SearchFilter` which will search full word in text, or exact match.
+The [djrestframework-word-filter][django-rest-framework-word-search-filter] developed as alternative to `filters.SearchFilter` which will search full word in text, or exact match.
 
 ## Django URL Filter
 

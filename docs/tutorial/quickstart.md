@@ -16,7 +16,7 @@ Create a new Django project named `tutorial`, then start a new app called `quick
 
     # Install Django and Django REST framework into the virtual environment
     pip install django
-    pip install djangorestframework
+    pip install djrestframework
 
     # Set up a new project with a single application
     django-admin startproject tutorial .  # Note the trailing '.' character
@@ -132,7 +132,7 @@ Okay, now let's wire up the API URLs.  On to `tutorial/urls.py`...
         path('', include(router.urls)),
         path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
     ]
-    
+
     urlpatterns += router.urls
 
 Because we're using viewsets instead of views, we can automatically generate the URL conf for our API, by simply registering the viewsets with a router class.
@@ -189,7 +189,7 @@ We can now access our API, both from the command-line, using tools like `curl`..
 Or using the [httpie][httpie], command line tool...
 
     bash: http -a admin http://127.0.0.1:8000/users/
-    http: password for admin@127.0.0.1:8000:: 
+    http: password for admin@127.0.0.1:8000::
     $HTTP/1.1 200 OK
     ...
     {

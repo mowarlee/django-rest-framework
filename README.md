@@ -64,7 +64,7 @@ each Python and Django series.
 
 Install using `pip`...
 
-    pip install djangorestframework
+    pip install djrestframework
 
 Add `'rest_framework'` to your `INSTALLED_APPS` setting.
 ```python
@@ -81,7 +81,7 @@ Let's take a look at a quick example of using REST framework to build a simple m
 Startup up a new project like so...
 
     pip install django
-    pip install djangorestframework
+    pip install djrestframework
     django-admin startproject example .
     ./manage.py migrate
     ./manage.py createsuperuser
@@ -183,8 +183,8 @@ Please see the [security policy][security-policy].
 [build-status]: https://github.com/encode/django-rest-framework/actions/workflows/main.yml
 [coverage-status-image]: https://img.shields.io/codecov/c/github/encode/django-rest-framework/master.svg
 [codecov]: https://codecov.io/github/encode/django-rest-framework?branch=master
-[pypi-version]: https://img.shields.io/pypi/v/djangorestframework.svg
-[pypi]: https://pypi.org/project/djangorestframework/
+[pypi-version]: https://img.shields.io/pypi/v/djrestframework.svg
+[pypi]: https://pypi.org/project/djrestframework/
 [twitter]: https://twitter.com/starletdreaming
 [group]: https://groups.google.com/forum/?fromgroups#!forum/django-rest-framework
 [sandbox]: https://restframework.herokuapp.com/

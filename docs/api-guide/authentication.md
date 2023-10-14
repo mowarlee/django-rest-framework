@@ -400,13 +400,13 @@ This package was previously included directly in the REST framework but is now s
 
 Install the package using `pip`.
 
-    pip install djangorestframework-oauth
+    pip install djrestframework-oauth
 
 For details on configuration and usage see the Django REST framework OAuth documentation for [authentication][django-rest-framework-oauth-authentication] and [permissions][django-rest-framework-oauth-permissions].
 
 ## JSON Web Token Authentication
 
-JSON Web Token is a fairly new standard which can be used for token-based authentication. Unlike the built-in TokenAuthentication scheme, JWT Authentication doesn't need to use a database to validate a token. A package for JWT authentication is [djangorestframework-simplejwt][djangorestframework-simplejwt] which provides some features as well as a pluggable token blacklist app.
+JSON Web Token is a fairly new standard which can be used for token-based authentication. Unlike the built-in TokenAuthentication scheme, JWT Authentication doesn't need to use a database to validate a token. A package for JWT authentication is [djrestframework-simplejwt][djrestframework-simplejwt] which provides some features as well as a pluggable token blacklist app.
 
 ## Hawk HTTP Authentication
 
@@ -414,7 +414,7 @@ The [HawkREST][hawkrest] library builds on the [Mohawk][mohawk] library to let y
 
 ## HTTP Signature Authentication
 
-HTTP Signature (currently a [IETF draft][http-signature-ietf-draft]) provides a way to achieve origin authentication and message integrity for HTTP messages. Similar to [Amazon's HTTP Signature scheme][amazon-http-signature], used by many of its services, it permits stateless, per-request authentication. [Elvio Toccalino][etoccalino] maintains the [djangorestframework-httpsignature][djangorestframework-httpsignature] (outdated) package which provides an easy-to-use HTTP Signature Authentication mechanism. You can use the updated fork version of [djangorestframework-httpsignature][djangorestframework-httpsignature], which is [drf-httpsig][drf-httpsig].
+HTTP Signature (currently a [IETF draft][http-signature-ietf-draft]) provides a way to achieve origin authentication and message integrity for HTTP messages. Similar to [Amazon's HTTP Signature scheme][amazon-http-signature], used by many of its services, it permits stateless, per-request authentication. [Elvio Toccalino][etoccalino] maintains the [djrestframework-httpsignature][djrestframework-httpsignature] (outdated) package which provides an easy-to-use HTTP Signature Authentication mechanism. You can use the updated fork version of [djrestframework-httpsignature][djrestframework-httpsignature], which is [drf-httpsig][drf-httpsig].
 
 ## Djoser
 
@@ -461,14 +461,14 @@ More information can be found in the [Documentation](https://django-rest-durin.r
 [django-rest-framework-oauth-authentication]: https://jpadilla.github.io/django-rest-framework-oauth/authentication/
 [django-rest-framework-oauth-permissions]: https://jpadilla.github.io/django-rest-framework-oauth/permissions/
 [juanriaza]: https://github.com/juanriaza
-[djangorestframework-digestauth]: https://github.com/juanriaza/django-rest-framework-digestauth
+[djrestframework-digestauth]: https://github.com/juanriaza/django-rest-framework-digestauth
 [oauth-1.0a]: https://oauth.net/core/1.0a/
 [django-oauth-toolkit]: https://github.com/evonove/django-oauth-toolkit
 [jazzband]: https://github.com/jazzband/
 [oauthlib]: https://github.com/idan/oauthlib
-[djangorestframework-simplejwt]: https://github.com/davesque/django-rest-framework-simplejwt
+[djrestframework-simplejwt]: https://github.com/davesque/django-rest-framework-simplejwt
 [etoccalino]: https://github.com/etoccalino/
-[djangorestframework-httpsignature]: https://github.com/etoccalino/django-rest-framework-httpsignature
+[djrestframework-httpsignature]: https://github.com/etoccalino/django-rest-framework-httpsignature
 [drf-httpsig]: https://github.com/ahknight/drf-httpsig
 [amazon-http-signature]: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
 [http-signature-ietf-draft]: https://datatracker.ietf.org/doc/draft-cavage-http-signatures/

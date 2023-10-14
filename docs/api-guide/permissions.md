@@ -202,7 +202,7 @@ As with `DjangoModelPermissions` you can use custom model permissions by overrid
 
 ---
 
-**Note**: If you need object level `view` permissions for `GET`, `HEAD` and `OPTIONS` requests and are using django-guardian for your object-level permissions backend, you'll want to consider using the `DjangoObjectPermissionsFilter` class provided by the [`djangorestframework-guardian2` package][django-rest-framework-guardian2]. It ensures that list endpoints only return results including objects for which the user has appropriate view permissions.
+**Note**: If you need object level `view` permissions for `GET`, `HEAD` and `OPTIONS` requests and are using django-guardian for your object-level permissions backend, you'll want to consider using the `DjangoObjectPermissionsFilter` class provided by the [`djrestframework-guardian2` package][django-rest-framework-guardian2]. It ensures that list endpoints only return results including objects for which the user has appropriate view permissions.
 
 ---
 
@@ -307,7 +307,7 @@ The following third party packages are also available.
 
 ## DRF - Access Policy
 
-The [Django REST - Access Policy][drf-access-policy] package provides a way to define complex access rules in declarative policy classes that are attached to view sets or function-based views. The policies are defined in JSON in a format similar to AWS' Identity & Access Management policies. 
+The [Django REST - Access Policy][drf-access-policy] package provides a way to define complex access rules in declarative policy classes that are attached to view sets or function-based views. The policies are defined in JSON in a format similar to AWS' Identity & Access Management policies.
 
 ## Composed Permissions
 
@@ -331,7 +331,7 @@ The [Rest Framework Roles][rest-framework-roles] makes it super easy to protect 
 
 ## Django REST Framework API Key
 
-The [Django REST Framework API Key][djangorestframework-api-key] package provides permissions classes, models and helpers to add API key authorization to your API. It can be used to authorize internal or third-party backends and services (i.e. _machines_) which do not have a user account. API keys are stored securely using Django's password hashing infrastructure, and they can be viewed, edited and revoked at anytime in the Django admin.
+The [Django REST Framework API Key][djrestframework-api-key] package provides permissions classes, models and helpers to add API key authorization to your API. It can be used to authorize internal or third-party backends and services (i.e. _machines_) which do not have a user account. API keys are stored securely using Django's password hashing infrastructure, and they can be viewed, edited and revoked at anytime in the Django admin.
 
 ## Django Rest Framework Role Filters
 
@@ -350,12 +350,12 @@ The [Django Rest Framework PSQ][drf-psq] package is an extension that gives supp
 [objectpermissions]: https://docs.djangoproject.com/en/stable/topics/auth/customizing/#handling-object-permissions
 [guardian]: https://github.com/lukaszb/django-guardian
 [filtering]: filtering.md
-[composed-permissions]: https://github.com/niwibe/djangorestframework-composed-permissions
+[composed-permissions]: https://github.com/niwibe/djrestframework-composed-permissions
 [rest-condition]: https://github.com/caxap/rest_condition
 [dry-rest-permissions]: https://github.com/FJNR-inc/dry-rest-permissions
 [django-rest-framework-roles]: https://github.com/computer-lab/django-rest-framework-roles
 [rest-framework-roles]: https://github.com/Pithikos/rest-framework-roles
-[djangorestframework-api-key]: https://florimondmanca.github.io/djangorestframework-api-key/
+[djrestframework-api-key]: https://florimondmanca.github.io/djrestframework-api-key/
 [django-rest-framework-role-filters]: https://github.com/allisson/django-rest-framework-role-filters
 [django-rest-framework-guardian2]: https://github.com/johnthagen/django-rest-framework-guardian2
 [drf-access-policy]: https://github.com/rsinger86/drf-access-policy

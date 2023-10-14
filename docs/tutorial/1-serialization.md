@@ -22,7 +22,7 @@ Before we do anything else we'll create a new virtual environment, using [venv].
 Now that we're inside a virtual environment, we can install our package requirements.
 
     pip install django
-    pip install djangorestframework
+    pip install djrestframework
     pip install pygments  # We'll be using this for the code highlighting
 
 **Note:** To exit the virtual environment at any time, just type `deactivate`.  For more information see the [venv documentation][venv].

@@ -24,8 +24,8 @@
         <img src="https://github.com/encode/django-rest-framework/actions/workflows/main.yml/badge.svg" class="status-badge">
     </a>
 
-    <a href="https://pypi.org/project/djangorestframework/">
-        <img src="https://img.shields.io/pypi/v/djangorestframework.svg" class="status-badge">
+    <a href="https://pypi.org/project/djrestframework/">
+        <img src="https://img.shields.io/pypi/v/djrestframework.svg" class="status-badge">
     </a>
 </p>
 
@@ -103,7 +103,7 @@ The following packages are optional:
 
 Install using `pip`, including any optional packages you want...
 
-    pip install djangorestframework
+    pip install djrestframework
     pip install markdown       # Markdown support for the browsable API.
     pip install django-filter  # Filtering support
 

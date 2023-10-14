@@ -8,7 +8,7 @@ from io import open
 from setuptools import find_packages, setup
 
 CURRENT_PYTHON = sys.version_info[:2]
-REQUIRED_PYTHON = (3, 6)
+REQUIRED_PYTHON = (3, 10)
 
 # This check and everything above must remain compatible with Python 2.7.
 if CURRENT_PYTHON < REQUIRED_PYTHON:
@@ -25,13 +25,13 @@ understand the python_requires classifier. Make sure you
 have pip >= 9.0 and setuptools >= 24.2, then try again:
 
     $ python -m pip install --upgrade pip setuptools
-    $ python -m pip install djangorestframework
+    $ python -m pip install djrestframework
 
 This will install the latest version of Django REST Framework which works on
 your version of Python. If you can't upgrade your pip (or Python), request
 an older version of Django REST Framework:
 
-    $ python -m pip install "djangorestframework<3.10"
+    $ python -m pip install "djrestframework<3.10"
 """.format(*(REQUIRED_PYTHON + CURRENT_PYTHON)))
     sys.exit(1)
 
@@ -67,20 +67,20 @@ if sys.argv[-1] == 'publish':
     print("  git push --tags")
     shutil.rmtree('dist')
     shutil.rmtree('build')
-    shutil.rmtree('djangorestframework.egg-info')
+    shutil.rmtree('djrestframework.egg-info')
     sys.exit()
 
 
 setup(
-    name='djangorestframework',
+    name='djrestframework',
     version=version,
     url='https://www.django-rest-framework.org/',
     license='BSD',
     description='Web APIs for Django, made easy.',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
-    author='Tom Christie',
-    author_email='tom@tomchristie.com',  # SEE NOTE BELOW (*)
+    author='Mowar Lee',
+    author_email='leemowar@gmail.com',
     packages=find_packages(exclude=['tests*']),
     include_package_data=True,
     install_requires=["django>=3.0", 'backports.zoneinfo;python_version<"3.9"'],
@@ -101,19 +101,13 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Internet :: WWW/HTTP',
     ],
     project_urls={
-        'Funding': 'https://fund.django-rest-framework.org/topics/funding/',
-        'Source': 'https://github.com/encode/django-rest-framework',
-        'Changelog': 'https://www.django-rest-framework.org/community/release-notes/',
+        'Source': 'https://github.com/mowarlee/django-rest-framework',
     },
 )
 

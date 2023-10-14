@@ -560,7 +560,7 @@ For further examples on `HiddenField` see the [validators](validators.md) docume
 
 ---
 
-**Note:** `HiddenField()` does not appear in `partial=True` serializer (when making `PATCH` request). This behavior might change in future, follow updates on [github discussion](https://github.com/encode/django-rest-framework/discussions/8259). 
+**Note:** `HiddenField()` does not appear in `partial=True` serializer (when making `PATCH` request). This behavior might change in future, follow updates on [github discussion](https://github.com/encode/django-rest-framework/discussions/8259).
 
 ---
 
@@ -840,9 +840,9 @@ The [drf-compound-fields][drf-compound-fields] package provides "compound" seria
 
 The [drf-extra-fields][drf-extra-fields] package provides extra serializer fields for REST framework, including `Base64ImageField` and `PointField` classes.
 
-## djangorestframework-recursive
+## djrestframework-recursive
 
-the [djangorestframework-recursive][djangorestframework-recursive] package provides a `RecursiveField` for serializing and deserializing recursive structures
+the [djrestframework-recursive][djrestframework-recursive] package provides a `RecursiveField` for serializing and deserializing recursive structures
 
 ## django-rest-framework-gis
 
@@ -859,7 +859,7 @@ The [django-rest-framework-hstore][django-rest-framework-hstore] package provide
 [iso8601]: https://www.w3.org/TR/NOTE-datetime
 [drf-compound-fields]: https://drf-compound-fields.readthedocs.io
 [drf-extra-fields]: https://github.com/Hipo/drf-extra-fields
-[djangorestframework-recursive]: https://github.com/heywbj/django-rest-framework-recursive
+[djrestframework-recursive]: https://github.com/heywbj/django-rest-framework-recursive
 [django-rest-framework-gis]: https://github.com/djangonauts/django-rest-framework-gis
 [django-rest-framework-hstore]: https://github.com/djangonauts/django-rest-framework-hstore
 [django-hstore]: https://github.com/djangonauts/django-hstore

@@ -1181,7 +1181,7 @@ The [html-json-forms][html-json-forms] package provides an algorithm and seriali
 
 ## QueryFields
 
-[djangorestframework-queryfields][djangorestframework-queryfields] allows API clients to specify which fields will be sent in the response via inclusion/exclusion query parameters.
+[djrestframework-queryfields][djrestframework-queryfields] allows API clients to specify which fields will be sent in the response via inclusion/exclusion query parameters.
 
 ## DRF Writable Nested
 
@@ -1211,6 +1211,6 @@ The [drf-encrypt-content][drf-encrypt-content] package helps you encrypt your da
 [drf-dynamic-fields]: https://github.com/dbrgn/drf-dynamic-fields
 [drf-base64]: https://bitbucket.org/levit_scs/drf_base64
 [drf-serializer-extensions]: https://github.com/evenicoulddoit/django-rest-framework-serializer-extensions
-[djangorestframework-queryfields]: https://djangorestframework-queryfields.readthedocs.io/
+[djrestframework-queryfields]: https://djrestframework-queryfields.readthedocs.io/
 [drf-writable-nested]: https://github.com/beda-software/drf-writable-nested
 [drf-encrypt-content]: https://github.com/oguzhancelikarslan/drf-encrypt-content

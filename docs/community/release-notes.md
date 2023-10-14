@@ -26,11 +26,11 @@ Note that in line with Django's policy, any parts of the framework not mentioned
 
 To upgrade Django REST framework to the latest version, use pip:
 
-    pip install -U djangorestframework
+    pip install -U djrestframework
 
 You can determine your currently installed version using `pip show`:
 
-    pip show djangorestframework
+    pip show djrestframework
 
 ---
 
@@ -318,7 +318,7 @@ Be sure to upgrade to Python 3 before upgrading to Django REST Framework 3.10.
 * Allow nullable BooleanField in Django 2.1 [#6183][gh6183]
 * Add testing of Python 3.7 support [#6141][gh6141]
 * Test using Django 2.1 final release. [#6109][gh6109]
-* Added djangorestframework-datatables to third-party packages [#5931][gh5931]
+* Added djrestframework-datatables to third-party packages [#5931][gh5931]
 * Change ISO 8601 date format to exclude year/month-only options [#5936][gh5936]
 * Update all pypi.python.org URLs to pypi.org [#5942][gh5942]
 * Ensure that html forms (multipart form data) respect optional fields [#5927][gh5927]
@@ -335,7 +335,7 @@ Be sure to upgrade to Python 3 before upgrading to Django REST Framework 3.10.
 * Improved URLs in Admin renderer [#5988][gh5988]
 * Add "Community" section to docs, minor cleanup [#5993][gh5993]
 * Moved guardian imports out of compat [#6054][gh6054]
-* Deprecate the `DjangoObjectPermissionsFilter` class, moved to the `djangorestframework-guardian` package. [#6075][gh6075]
+* Deprecate the `DjangoObjectPermissionsFilter` class, moved to the `djrestframework-guardian` package. [#6075][gh6075]
 * Drop Django 1.10 support [#5657][gh5657]
 * Only catch TypeError/ValueError for object lookups [#6028][gh6028]
 * Handle models without .objects manager in ModelSerializer. [#6111][gh6111]
@@ -593,7 +593,7 @@ Be sure to upgrade to Python 3 before upgrading to Django REST Framework 3.10.
 * Ensure Location header is strictly a 'str', not subclass. [#5544][gh5544]
 * Add import to example in api-guide/parsers [#5547][gh5547]
 * Catch OverflowError for "out of range" datetimes [#5546][gh5546]
-* Add djangorestframework-rapidjson to third party packages [#5549][gh5549]
+* Add djrestframework-rapidjson to third party packages [#5549][gh5549]
 * Increase test coverage for `drf_create_token` command [#5550][gh5550]
 * Add trove classifier for Python 3.6 support. [#5555][gh5555]
 * Add pip cache support to the Travis CI configuration [#5556][gh5556]
