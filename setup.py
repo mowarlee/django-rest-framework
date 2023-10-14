@@ -84,7 +84,7 @@ setup(
     packages=find_packages(exclude=['tests*']),
     include_package_data=True,
     install_requires=["django>=3.0", 'backports.zoneinfo;python_version<"3.9"'],
-    python_requires=">=3.6",
+    python_requires=">=3.10",
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',

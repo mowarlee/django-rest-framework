@@ -1,19 +1,10 @@
-r"""
-______ _____ _____ _____    __
-| ___ \  ___/  ___|_   _|  / _|                                           | |
-| |_/ / |__ \ `--.  | |   | |_ _ __ __ _ _ __ ___   _____      _____  _ __| |__
-|    /|  __| `--. \ | |   |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
-| |\ \| |___/\__/ / | |   | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
-\_| \_\____/\____/  \_/   |_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_|
-"""
-
 import django
 
 __title__ = 'Django REST framework'
-__version__ = '3.14.0'
-__author__ = 'Tom Christie'
+__version__ = '5.12.0'
+__author__ = 'Mowar Lee'
 __license__ = 'BSD 3-Clause'
-__copyright__ = 'Copyright 2011-2023 Encode OSS Ltd'
+__copyright__ = 'Copyright 2016-2023'
 
 # Version synonym
 VERSION = __version__
