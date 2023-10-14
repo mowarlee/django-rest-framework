@@ -90,9 +90,6 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 3.0',
-        'Framework :: Django :: 3.1',
-        'Framework :: Django :: 3.2',
         'Framework :: Django :: 4.0',
         'Framework :: Django :: 4.1',
         'Framework :: Django :: 4.2',
@@ -110,9 +107,3 @@ setup(
         'Source': 'https://github.com/mowarlee/django-rest-framework',
     },
 )
-
-# (*) Please direct queries to the discussion group, rather than to me directly
-#     Doing so helps ensure your question is helpful to other users.
-#     Queries directly to my email are likely to receive a canned response.
-#
-#     Many thanks for your understanding.
