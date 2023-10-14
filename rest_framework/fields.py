@@ -1871,6 +1871,28 @@ class SerializerMethodField(Field):
         return method(value)
 
 
+class RelField(Field):
+    many = False
+
+    def __init__(self, ser: type | str, **kwargs):
+        kwargs['read_only'] = True
+        if isinstance(ser, str):
+            ser = globals().get(ser)
+        self.__ser = ser
+        super().__init__(**kwargs)
+
+    def to_representation(self, value):
+        return self.__ser(
+            instance=value,
+            many=self.many,
+            context=self.parent.context,
+        ).data
+
+
+class ManyField(RelField):
+    many = True
+
+
 class ModelField(Field):
     """
     A generic field that can be used against an arbitrary model field.
