@@ -71,7 +71,7 @@ class UpdateModelMixin:
 
         queryset = self.filter_queryset(self.get_queryset())
         # if queryset._prefetch_related_lookups:
-        if getattr(queryset , '_prefetch_related_lookups'):
+        if getattr(queryset , '_prefetch_related_lookups' , None):
             # If 'prefetch_related' has been applied to a queryset, we need to
             # forcibly invalidate the prefetch cache on the instance,
             # and then re-prefetch related objects
