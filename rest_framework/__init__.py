@@ -1,7 +1,7 @@
 import django
 
 __title__ = 'Django REST framework'
-__version__ = '5.12.0'
+__version__ = '5.14.0'
 __author__ = 'Mowar Lee'
 __license__ = 'BSD 3-Clause'
 __copyright__ = 'Copyright 2016-2023'
